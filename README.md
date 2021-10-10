@@ -260,7 +260,7 @@ TABLES;
 
 打开窗口右侧的Maven，依次展开Mybatis-demo->Plugin->mybatis-generator，双击mybatis-generator:generate，可以看到控制台的相关信息以及生成的 dao、domain、com.hyd.mybatisdemo.dao
 
-![1](/Users/hayden/Desktop/Mybatis-demo/pictures/1.png)
+![1](https://img-blog.csdnimg.cn/ae9b0c396c0443a5947bd72d609b3989.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA57u_6Iy25ZOl5ZOl,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 
 ### 4.3 开始使用
 
@@ -354,7 +354,7 @@ public class AdController {
 http://localhost:8080/getad
 ```
 
-![2](/Users/hayden/Desktop/Mybatis-demo/pictures/2.png)
+![2](https://img-blog.csdnimg.cn/7b607731218e4ba789ccda842a24fa4b.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA57u_6Iy25ZOl5ZOl,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 
 
 
