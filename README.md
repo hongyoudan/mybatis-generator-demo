@@ -1,4 +1,4 @@
-# Mybatis-demo
+# Mybatis Generator-demo
 
 ## 1 专业名词解释
 
@@ -91,7 +91,7 @@ http://www.mybatis.org/generator/index.html
 
 ### 4.1 数据库及数据表创建
 
-#### 4.1.1 新建数据库：Mybatis-demo
+#### 4.1.1 新建数据库：mybatis_generator_demo-db
 
 #### 4.1.2 新建数据表ad
 
@@ -144,7 +144,7 @@ UNLOCK
 TABLES;
 ```
 
-### 4.2 新建项目Mybatis-demo
+### 4.2 新建项目Mybatis Generator-demo
 
 #### 4.2.1 在pom.xml中导入插件
 
@@ -236,7 +236,7 @@ TABLES;
 
         <!--数据库连接信息-->
         <jdbcConnection driverClass="com.mysql.jdbc.Driver"
-                        connectionURL="jdbc:mysql://127.0.0.1:3306/Mybatis-demo?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC&amp;verifyServerCertificate=false&amp;useSSL=false"
+                        connectionURL="jdbc:mysql://127.0.0.1:3306/mybatis_generator_demo-db?useUnicode=true&amp;characterEncoding=UTF-8&amp;serverTimezone=UTC&amp;verifyServerCertificate=false&amp;useSSL=false"
                         userId="root"
                         password="root"/>
 
@@ -258,7 +258,7 @@ TABLES;
 
 #### 4.2.3 运行插件
 
-打开窗口右侧的Maven，依次展开Mybatis-demo->Plugin->mybatis-generator，双击mybatis-generator:generate，可以看到控制台的相关信息以及生成的 dao、domain、com.hyd.mybatisdemo.dao
+打开窗口右侧的Maven，依次展开Mybatis Generator-demo->Plugin->mybatis-generator，双击mybatis-generator:generate，可以看到控制台的相关信息以及生成的 dao、domain、com.hyd.mybatisdemo.dao
 
 ![1](https://img-blog.csdnimg.cn/ae9b0c396c0443a5947bd72d609b3989.png?x-oss-process=image/watermark,type_ZHJvaWRzYW5zZmFsbGJhY2s,shadow_50,text_Q1NETiBA57u_6Iy25ZOl5ZOl,size_20,color_FFFFFF,t_70,g_se,x_16#pic_center)
 
