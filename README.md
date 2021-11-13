@@ -4,7 +4,7 @@
 
 ### 1.1 Dao
 
-Dao层叫数据访问层、持久层，全称为Data access object，属于一种比较底层，比较基础的操作，具体到对于某个表的增删改查，也就是说某个Dao一定是和数据库的某一张表一一对应的，其中封装了增删改查基本操作，完全根据Domain的要求来查询数据，建议Dao只做原子操作，增删改查。
+Dao层叫数据访问层、持久层，全称为Data access object，属于一种比较底层，比较基础的操作，具体到对于某个表的增删改查，也就是说某个Dao一定是和数据库的某一张表一一对应的，其中封装了增删改查基本操作，完全根据Domain的要求来查询数据（操作Domain），建议Dao只做原子操作，增删改查。
 
 ### 1.2 Domain
 
@@ -91,7 +91,7 @@ http://www.mybatis.org/generator/index.html
 
 ### 4.1 数据库及数据表创建
 
-#### 4.1.1 新建数据库：mybatis_generator_demo-db
+#### 4.1.1 新建数据库：mybatis-generator-demo-db
 
 #### 4.1.2 新建数据表ad
 
